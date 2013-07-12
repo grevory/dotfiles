@@ -31,3 +31,9 @@ set -o noclobber
 # directory
 alias ll="ls -alrtF --color"
 alias ..='cd ..'
+
+# Git commands
+alias commit="git commit -am"
+alias reset="git reset --hard"
+alias rebase="git pull --rebase origin"
+alias push="git push origin"
