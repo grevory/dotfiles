@@ -20,3 +20,9 @@ sudo apt-get update
 sudo apt-get install sublime-text-installer
 # Filezilla
 sudo aptitude install filezilla
+
+# Move any Sublime Snippets
+cd $HOME
+if [ -d ./dotfiles/Sublime ]; then
+    cp -r ./dotfiles/Sublime .config/sublime-text-3/Packages/User/
+fi
